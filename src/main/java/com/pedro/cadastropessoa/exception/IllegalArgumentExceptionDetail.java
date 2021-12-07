@@ -7,8 +7,8 @@ import java.time.LocalDateTime;
 
 @Data
 @Builder
-public class MissingServletRequestParameterExceptionDetails {
+public class IllegalArgumentExceptionDetail {
     private String title;
     private int status;
-    private LocalDateTime timestamp;
+    private LocalDateTime localDateTime;
 }
